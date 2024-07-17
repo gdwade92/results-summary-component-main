@@ -1,0 +1,86 @@
+/* Minimal Reset */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Font-face Declarations */
+
+  @font-face {
+    font-family: 'Hanken Grotesk';
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf) format('truetype');
+    font-display: fallback;
+    font-weight: 500 800;
+    font-style: normal;
+  }
+
+  /* Root Declarations */
+  :root {
+    /* Layout - Widths */
+    
+    --mw-desktop: 90rem; 
+    /* mw desktop is 1440px */
+
+    --mw-mobile: 23.438rem;
+    /* mw mobile is 375px */
+
+    /* Colors - Primary*/
+    --clr-prm-lred: hsl(0, 100%, 67%);
+    --clr-prm-oyellow: hsl(39, 100%, 56%);
+    --clr-prm-gteal: hsl(166, 100%, 37%);
+    --clr-prm-cblue: hsl(234, 85%, 45%);
+
+    /* Colors - Gradients */
+    --clr-grd-lsblue: hsl(252, 100%, 67%);
+    --clr-grd-lrblue: hsl(241, 81%, 54%);
+    --clr-grd-vblue: hsla(256, 72%, 46%, 1);
+    --clr-grd-pblue: hsla(241, 72%, 46%, 0);
+
+    /* Colors - Neutral */
+    --clr-neut-white: hsl(0, 0%, 100%);
+    --clr-neut-paleblue: hsl(221, 100%, 96%);
+    --clr-neut-lightlavender: hsl(241, 100%, 89%);
+    --clr-neut-dgblue: hsl(224, 30%, 27%);
+
+    /* Fonts - Font Family */
+    --ff-primary: 'Hanken Grotesk', 'san-serif';
+
+    /* Fonts - Font Weights */
+    --fw-reg: 500;
+    --fw-semi-bold: 700;
+    --fw-bold: 800;
+
+    /* Fonts - Font Size */
+    --fs-100: 0.5rem;
+    --fs-200: 0.75rem;
+    --fs-300: 0.875rem;
+    --fs-400: 1rem;
+    --fs-500: 1.125rem;
+    --fs-600: 1.250rem;
+    --fs-700: 1.5rem;
+    --fs-800: 2rem;
+    --fs-900: 2.5rem;
+  }
+
+  /* Desktop - General Styling */
+
+
